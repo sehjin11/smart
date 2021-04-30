@@ -6,9 +6,10 @@ public class Ex09 {
 	String userName;
 	String userEmail;
 	
-	public Ex09(String userId, String userEmail) {
+	public Ex09(String userId, String userEmail, String userName) {
 		this.userId=userId;
 		this.userEmail=userEmail;
+		this.userName=userName;
 	}
 	
 	public String getEmail() {
